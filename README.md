@@ -20,7 +20,7 @@
 ## 🚀 **Setup Instructions**  
 
 ### **Linux/MacOS**  
-```bash
+
 # Clone the repository (if applicable)
 git clone {your_repository_url}
 cd namaa-backend-solution
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 # Start the server
 python app.py
-
+echo 
 ### **Windows**
 # Clone the repository (if applicable)
 git clone {your_repository_url}
