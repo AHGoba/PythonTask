@@ -28,7 +28,7 @@
 ### 🔹 **Linux/MacOS**  
 ```bash
 # Clone the repository (if applicable)
-git clone {your_repository_url}
+git clone https://github.com/AHGoba/PythonTask.git
 cd namaa-backend-solution
 
 # Create virtual environment
@@ -45,7 +45,7 @@ python app.py
 ### 🔹 **Windows**  
 ```powershell
 # Clone the repository (if applicable)
-git clone {your_repository_url}
+git clone https://github.com/AHGoba/PythonTask.git
 cd namaa-backend-solution
 
 # Create virtual environment
