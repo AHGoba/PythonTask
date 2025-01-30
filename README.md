@@ -34,3 +34,44 @@ pip install -r requirements.txt
 
 # Start the server
 python app.py
+
+### **Windows**
+# Clone the repository (if applicable)
+git clone {your_repository_url}
+cd namaa-backend-solution
+
+# Create virtual environment
+python -m venv venv
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start the server
+python app.py
+
+
+🌐 API Endpoint
+POST /execute
+Request Body:
+{
+  "id": "string (optional)",  // Session ID (for Level 3)
+  "code": "string"            // Python code to execute
+}
+
+Response:
+{
+  "id": "string",    // Session ID (for Level 3)
+  "stdout": "string",
+  "stderr": "string",
+  "error": "string"
+}
+
+🧪 Testing Examples
+Level 1-2 (Basic Execution + Limits)
+curl -X POST http://localhost:5000/execute \
+-H "Content-Type: application/json" \
+-d '{"code": "print(\"Hello World!\")"}'
+{"stdout": "Hello World!\n"}
+
+
